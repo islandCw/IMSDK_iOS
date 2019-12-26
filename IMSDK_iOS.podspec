@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "IMSDK_iOS"
-  s.version      = "2.3.1.11107"
+  s.version      = "2.3.1.11108"
   s.summary      = "Update IMSDK_iOS."
 
   s.description  = "YoumeIMSDK_iOS"
@@ -18,7 +18,6 @@ Pod::Spec.new do |s|
 
 
   s.source_files  = "include/*.{h,m,mm}","lib/**/*.{h,a}"
-  s.public_header_files = "include/*.h"
   s.public_header_files = "lib/**/*.{h,m}"
   s.vendored_libraries="lib/libyim.a","lib/libYouMeCommon.a"
   s.requires_arc=true
