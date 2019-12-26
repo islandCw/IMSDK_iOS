@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/islandCw/IMSDK_iOS.git", :tag => "#{s.version}" }
 
 
-  s.source_files  = "include/*.{h,m}","lib/**/*.{h,a}"
+  s.source_files  = "include/*.{h,m,mm}","lib/**/*.{h,a}"
   s.public_header_files = "include/*.h"
   s.public_header_files = "lib/**/*.{h,m}"
   s.vendored_libraries="lib/libyim.a","lib/libYouMeCommon.a"
