@@ -14,12 +14,12 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://github.com/islandCw/IMSDK_iOS.git", :tag => "s.version" }
+  s.source       = { :git => "https://github.com/islandCw/IMSDK_iOS.git", :tag => "#{s.version}" }
 
 
   s.source_files  = "include/*.{h,m}"
   s.source_files  = "lib/**/*.{h,a}"
-  s.public_header_files = "include/**/*.{h,m}"
+  s.public_header_files = "include/*.{h,m}"
   s.public_header_files = "lib/**/*.{h,m}"
   s.vendored_libraries="lib/libyim.a"
   s.vendored_libraries="lib/libYouMeCommon.a"
