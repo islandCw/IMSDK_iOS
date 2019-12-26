@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
 
   s.source_files  = "IMSDK_iOS/*"
-  s.public_header_files = "IMSDK_iOS/include/*.{h,m}"
+  s.public_header_files = "IMSDK_iOS/include/*.{h,m,mm}"
   s.public_header_files = "lib/**/*.{h,m}"
   s.vendored_libraries="lib/libyim.a"
   s.vendored_libraries="lib/libYouMeCommon.a"
