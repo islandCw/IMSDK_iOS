@@ -18,7 +18,8 @@ Pod::Spec.new do |s|
 
 
   s.source_files  = "include/*.{h,m}","lib/**/*.{h,a}"
-  s.public_header_files = "include/*.{h,m}","lib/**/*.{h,m}"
+  s.public_header_files = "include/*.h"
+  s.public_header_files = "lib/**/*.{h,m}"
   s.vendored_libraries="lib/libyim.a","lib/libYouMeCommon.a"
   s.requires_arc=true
 
